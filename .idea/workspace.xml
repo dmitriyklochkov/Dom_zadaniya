@@ -19,7 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a963eb19-0a57-4874-bdd5-871c0eed6d22" name="Default Changelist" comment="удалил идеа и оут">
+    <list default="true" id="a963eb19-0a57-4874-bdd5-871c0eed6d22" name="Default Changelist" comment="переместил Задание 4">
+      <change beforePath="$PROJECT_DIR$/.idea/Zadanie -4.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Zadanie -4.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,6 +55,9 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RunManager">
     <configuration name="MainCar" type="Application" factoryName="Application" nameIsGenerated="true">
@@ -101,7 +105,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601037509328</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="переместил Задание 4">
+      <created>1601038037462</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1601038037462</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -114,41 +125,51 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Площадь фигуры" />
     <MESSAGE value="удалил идеа и оут" />
-    <option name="LAST_COMMIT_MESSAGE" value="удалил идеа и оут" />
+    <MESSAGE value="переместил Задание 4" />
+    <option name="LAST_COMMIT_MESSAGE" value="переместил Задание 4" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="137" y="0" width="1092" height="728" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601037930743">
+    <state x="163" y="0" key="#Project_Structure" timestamp="1601044560823">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="137" y="0" width="1092" height="728" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1601037930743" />
+    <state x="163" y="0" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1601044560823" />
+    <state x="137" y="0" width="1092" height="728" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601044313970">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="137" y="0" width="1092" height="728" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1601044313970" />
     <state x="488" y="70" key="#com.intellij.ide.util.MemberChooser" timestamp="1601025454771">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="488" y="70" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1601025454771" />
+    <state x="412" y="153" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1601044308431">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="412" y="153" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1366.728@0.0.1366.728" timestamp="1601044308431" />
     <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1601037595013">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1601037595013" />
-    <state width="1323" height="180" key="GridCell.Tab.0.bottom" timestamp="1601037596317">
+    <state width="1323" height="180" key="GridCell.Tab.0.bottom" timestamp="1601044492902">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="180" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1601037596317" />
-    <state width="1323" height="180" key="GridCell.Tab.0.center" timestamp="1601037596317">
+    <state width="1323" height="180" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1601044492902" />
+    <state width="1323" height="180" key="GridCell.Tab.0.center" timestamp="1601044492902">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="180" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1601037596317" />
-    <state width="1323" height="180" key="GridCell.Tab.0.left" timestamp="1601037596317">
+    <state width="1323" height="180" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1601044492902" />
+    <state width="1323" height="180" key="GridCell.Tab.0.left" timestamp="1601044492902">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="180" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1601037596317" />
-    <state width="1323" height="180" key="GridCell.Tab.0.right" timestamp="1601037596317">
+    <state width="1323" height="180" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1601044492902" />
+    <state width="1323" height="180" key="GridCell.Tab.0.right" timestamp="1601044492902">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="180" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1601037596317" />
+    <state width="1323" height="180" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1601044492902" />
     <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1601027527574">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
