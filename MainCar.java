@@ -3,8 +3,7 @@ public class MainCar {
 
         Lorry lorrry = new Lorry("Шкода") {
             @Override
-            void start() {
-                super.start();
+            void start() {super.start();
             }
         };
     }

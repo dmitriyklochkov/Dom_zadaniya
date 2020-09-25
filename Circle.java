@@ -1,6 +1,6 @@
 public class Circle implements Shape {
-    double radius = 4.0;
-    double area;
+    private double radius = 4.0;
+    private double area;
 
     @Override
     public double square() {

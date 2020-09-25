@@ -1,7 +1,7 @@
 public class Triangle implements Shape {
-    double height = 2.0;
-    double side = 4.0;
-    double area;
+    private double height = 2.0;
+    private double side = 4.0;
+    private double area;
 
     @Override
     public double square() {
@@ -9,3 +9,5 @@ public class Triangle implements Shape {
         return area;
     }
 }
+
+
