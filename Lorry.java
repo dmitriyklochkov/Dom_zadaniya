@@ -1,24 +1,20 @@
-public abstract class Lorry extends Car {
+public class Lorry extends Car {
     private int liftingCapacity = 15;
-public Lorry( String brand){
 
-}
+    @Override
+    void start() {
+        System.out.println("Грузовик поехал");
+    }
 
-        @Override
-        void start() {
+    @Override
+    void stop() {
+        System.out.println("Грузовик остановился");
+    }
 
-        }
-
-        @Override
-        void stop() {
-
-        }
-
-        @Override
-        void printInfo() {
-
-        }
-
+    @Override
+    void printInfo() {
+        System.out.println("Автомобиль марки " + brand + " класс " + clas + " вес " + weight + " мощность мотора " + motor);
+    }
 }
 
 
