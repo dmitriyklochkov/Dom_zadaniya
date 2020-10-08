@@ -19,19 +19,14 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d34a842b-70cb-41e2-8829-e5db3b1c016a" name="Default Changelist" comment="исправил фигуры">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MainEngine.java" afterDir="false" />
+    <list default="true" id="d34a842b-70cb-41e2-8829-e5db3b1c016a" name="Default Changelist" comment="исправил машины">
+      <change afterPath="$PROJECT_DIR$/Cars/SportCar.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Engine.java" beforeDir="false" afterPath="$PROJECT_DIR$/Engine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lorry.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lorry.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SportCar.java" beforeDir="false" afterPath="$PROJECT_DIR$/SportCar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Zadanie -4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Zadanie -4/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Zadanie -4/Car.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Zadanie -4/Car.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Zadanie -4/Engine.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Zadanie -4/Engine.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Zadanie -4/Lorry.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Zadanie -4/Lorry.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Zadanie -4/SportCar.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Zadanie -4/SportCar.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/Cars/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engine.java" beforeDir="false" afterPath="$PROJECT_DIR$/Cars/Engine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lorry.java" beforeDir="false" afterPath="$PROJECT_DIR$/Cars/Lorry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainEngine.java" beforeDir="false" afterPath="$PROJECT_DIR$/Cars/MainEngine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SportCar.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +68,7 @@
   </component>
   <component name="RunManager">
     <configuration name="MainEngine" type="Application" factoryName="Application" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MainEngine" />
+      <option name="MAIN_CLASS_NAME" value="Cars.MainEngine" />
       <module name="Zadanie -4" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -117,7 +112,21 @@
       <option name="project" value="LOCAL" />
       <updated>1602149030070</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="исправил машины">
+      <created>1602166555492</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1602166555492</updated>
+    </task>
+    <task id="LOCAL-00006" summary="исправил машины">
+      <created>1602166683290</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1602166683290</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -136,7 +145,8 @@
     <MESSAGE value="переместил Shape" />
     <MESSAGE value="реализовал Car" />
     <MESSAGE value="исправил фигуры" />
-    <option name="LAST_COMMIT_MESSAGE" value="исправил фигуры" />
+    <MESSAGE value="исправил машины" />
+    <option name="LAST_COMMIT_MESSAGE" value="исправил машины" />
   </component>
   <component name="WindowStateProjectService">
     <state x="137" y="0" width="1092" height="728" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602158676719">
@@ -153,30 +163,30 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1601386088822" />
-    <state width="661" height="280" key="GridCell.Tab.0.bottom" timestamp="1602166087419">
+    <state width="661" height="280" key="GridCell.Tab.0.bottom" timestamp="1602168196221">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="661" height="280" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1602166087419" />
+    <state width="661" height="280" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1602168196221" />
     <state width="1877" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1601282697431" />
-    <state width="661" height="280" key="GridCell.Tab.0.center" timestamp="1602166087419">
+    <state width="661" height="280" key="GridCell.Tab.0.center" timestamp="1602168196221">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="661" height="280" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1602166087419" />
+    <state width="661" height="280" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1602168196221" />
     <state width="1877" height="281" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1601282697431" />
-    <state width="661" height="280" key="GridCell.Tab.0.left" timestamp="1602166087419">
+    <state width="661" height="280" key="GridCell.Tab.0.left" timestamp="1602168196220">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="661" height="280" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1602166087419" />
+    <state width="661" height="280" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1602168196220" />
     <state width="1877" height="281" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1601282697431" />
-    <state width="661" height="280" key="GridCell.Tab.0.right" timestamp="1602166087419">
+    <state width="661" height="280" key="GridCell.Tab.0.right" timestamp="1602168196221">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="661" height="280" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1602166087419" />
+    <state width="661" height="280" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1602168196221" />
     <state width="1877" height="281" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1601282697431" />
-    <state x="393" y="176" key="Vcs.Push.Dialog.v2" timestamp="1602149055534">
+    <state x="393" y="176" key="Vcs.Push.Dialog.v2" timestamp="1602166714810">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="393" y="176" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1602149055534" />
+    <state x="393" y="176" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1602166714810" />
     <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1601282911897" />
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1602163749681">
       <screen x="0" y="0" width="1366" height="728" />

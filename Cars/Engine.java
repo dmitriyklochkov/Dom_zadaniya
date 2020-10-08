@@ -1,4 +1,4 @@
-import java.util.Scanner;
+package Cars;
 
 public class Engine {
     public int power;

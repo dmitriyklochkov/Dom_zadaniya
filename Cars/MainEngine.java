@@ -1,4 +1,4 @@
-import java.util.Scanner;
+package Cars;
 
 public class MainEngine {
     public static void main(String[] args) {
@@ -15,7 +15,5 @@ public class MainEngine {
         lorry.turnLeft();
         lorry.stop();
         lorry.printInfo();
-
-
     }
 }
