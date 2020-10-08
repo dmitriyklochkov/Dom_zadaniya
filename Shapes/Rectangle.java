@@ -1,3 +1,5 @@
+package Shapes;
+
 import java.util.Scanner;
 
 public class Rectangle implements Shape {
