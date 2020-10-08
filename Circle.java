@@ -1,10 +1,15 @@
+import java.util.Scanner;
+
 public class Circle implements Shape {
-    private double radius = 4.0;
+    private double radius;
     private double area;
 
     @Override
     public double square() {
-        area = (Shape.p * radius * radius);
+        System.out.println("Введите радиус круга ");
+        Scanner scanner = new Scanner(System.in);
+        radius = scanner.nextDouble();
+        area = (Math.PI * radius * radius);
         return area;
     }
 }
