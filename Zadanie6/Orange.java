@@ -5,15 +5,16 @@ import java.util.Scanner;
 public class Orange {
     private float weight = 1.5f;
     private int size = 3;
-    private float weightBox;
+    protected static float weightBox;
+    MyArrayCollection<Orange> boxOrange = new MyArrayCollection<>();
 
-    void box() {
+    protected void box() {
         System.out.println("Введите количество апельсинов");
         Scanner scanner = new Scanner(System.in);
         size = scanner.nextInt();
     }
 
-    void getWeight() {
+    protected void getWeight() {
         weightBox = weight * size;
     }
 }

@@ -2,22 +2,16 @@ package Zadanie6;
 
 import java.util.Comparator;
 
-public class Box<E> extends ArrayCollection implements Comparator {
+public class Box<E> extends MyArrayCollection implements Comparator {
 
     @Override
     public int compare(Object o1, Object o2) {
         return 0;
     }
 
-    public static void main(String[] args) {
-    }
+    protected boolean compare(Object item) {
 
-    ArrayCollection<Apple> boxApple = new ArrayCollection<>();
-    ArrayCollection<Orange> boxOrange = new ArrayCollection<>();
-
-    boolean compare(Object item) {
-
-        int comp = compare(boxApple, boxOrange);
+        float comp = Apple.weightBox - Orange.weightBox;
         {
             if (comp == 0) {
                 return false;

@@ -5,15 +5,17 @@ import java.util.Scanner;
 public class Apple {
     static float weight = 1.0f;
     private int size;
-    private float weightBox;
+    protected static float weightBox;
 
-    void box() {
+
+    protected void box() {
+        MyArrayCollection<Apple> boxApple = new MyArrayCollection<>();
         System.out.println("Введите количество яблок");
         Scanner scanner = new Scanner(System.in);
         size = scanner.nextInt();
     }
 
-    void getWeight() {
+    protected void getWeight() {
         weightBox = weight * size;
     }
 }
