@@ -7,7 +7,7 @@ public class managementAccount extends Account implements AccountService {
         Scanner scanner = new Scanner(System.in);
         Account acc = new Account();
         AccountService service = new AccountService();
-        System.out.println("Введите  команду balance [id], withdraw [id] [amount],deposite [id] [amount] или transfer [from] [to] [amount]");
+        System.out.println("Введите  команду balance [id], withdraw [id] [amount],deposit [id] [amount] или transfer [from] [to] [amount]");
         String order = scanner.nextLine();
         if (order == "balance")
             acc.id = scanner.nextInt();
