@@ -6,20 +6,19 @@
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
       </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
     </expand>
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8524b165-4c13-421f-8200-da1d4a391f65" name="Default Changelist" comment="Исправил 6 задание" />
+    <list default="true" id="8524b165-4c13-421f-8200-da1d4a391f65" name="Default Changelist" comment="скопировал на раб.стол">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Zadanie7/File.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Dom_zadaniya.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Dom_zadaniya.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Zadanie7/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/Zadanie7/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Zadanie7/List.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Zadanie7/List.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Zadanie7/managementAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/Zadanie7/ManagementAccount.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -44,8 +43,9 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Desktop/Dom_Zadaniya" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
@@ -55,9 +55,9 @@
       <recent name="Zadanie7" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration name="intersperse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Zadanie6.intersperse" />
+  <component name="RunManager" selected="Application.Unnamed">
+    <configuration name="ManagementAccount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ManagementAccount" />
       <module name="Dom_zadaniya" />
       <extension name="coverage">
         <pattern>
@@ -69,9 +69,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Computer" />
+      <module name="Dom_zadaniya" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.ManagementAccount" />
+      <item itemvalue="Application.Unnamed" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.intersperse" />
+        <item itemvalue="Application.ManagementAccount" />
       </list>
     </recent_temporary>
   </component>
@@ -105,7 +116,21 @@
       <option name="project" value="LOCAL" />
       <updated>1604853700583</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="скопировал на раб.стол">
+      <created>1604925696909</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1604925696909</updated>
+    </task>
+    <task id="LOCAL-00005" summary="скопировал на раб.стол">
+      <created>1604925761541</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1604925761541</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -122,42 +147,61 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Исправил 6 задание" />
-    <option name="LAST_COMMIT_MESSAGE" value="Исправил 6 задание" />
+    <MESSAGE value="скопировал на раб.стол" />
+    <option name="LAST_COMMIT_MESSAGE" value="скопировал на раб.стол" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="137" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604842256343">
+    <state x="309" y="42" key="#Inspections" timestamp="1605271398961">
       <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="309" y="42" key="#Inspections/0.0.1366.728@0.0.1366.728" timestamp="1605271398961" />
+    <state x="440" y="94" key="#Project_Structure" timestamp="1604926681986">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="440" y="94" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1604926681986" />
+    <state x="391" y="253" width="1092" height="787" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604926603704">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="137" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1604842256343" />
-    <state x="488" y="70" key="#com.intellij.ide.util.MemberChooser" timestamp="1603960938368">
+    <state x="391" y="253" width="1092" height="787" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604926603704" />
+    <state x="488" y="70" key="#com.intellij.ide.util.MemberChooser" timestamp="1605177575138">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="488" y="70" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1603960938368" />
+    <state x="488" y="70" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1605177575138" />
+    <state x="686" y="100" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1604926942383" />
+    <state x="468" y="173" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1604926351068">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="468" y="173" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604926351068" />
     <state x="466" y="258" width="433" height="218" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1604861220782">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="466" y="258" width="433" height="218" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1366.728@0.0.1366.728" timestamp="1604861220782" />
-    <state x="651" y="169" key="FileChooserDialogImpl" timestamp="1604924209805">
+    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1605265354249">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1605265354249" />
+    <state x="651" y="169" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1604927194776" />
+    <state width="1877" height="281" key="GridCell.Tab.0.bottom" timestamp="1604926614611">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1604847274079" />
-    <state x="651" y="169" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1604924209805" />
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1604853714639">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
     <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1604853714639" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1604853714639">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1877" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604926614611" />
+    <state width="1877" height="281" key="GridCell.Tab.0.center" timestamp="1604926614611">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1604853714639" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1604853714638">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1877" height="281" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604926614611" />
+    <state width="1877" height="281" key="GridCell.Tab.0.left" timestamp="1604926614611">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1604853714638" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1604853714639">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1877" height="281" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604926614610" />
+    <state width="1877" height="281" key="GridCell.Tab.0.right" timestamp="1604926614611">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1604853714639" />
+    <state width="1877" height="281" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604926614611" />
     <state x="184" y="0" key="SettingsEditor" timestamp="1603901800581">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -174,6 +218,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="288" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1366.728@0.0.1366.728" timestamp="1604841522074" />
+    <state x="389" y="0" width="587" height="728" key="find.popup" timestamp="1605265467291">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="389" y="0" width="587" height="728" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1605265467291" />
     <state width="624" height="500" key="javadoc.popup.new" timestamp="1603961850479">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
