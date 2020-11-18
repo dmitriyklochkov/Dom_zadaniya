@@ -7,7 +7,7 @@ import java.util.Scanner;
 
 public class ManagementAccount extends Account implements AccountService {
 
-   static int  sum;
+    static int sum;
 
 
     @Override
@@ -17,7 +17,7 @@ public class ManagementAccount extends Account implements AccountService {
 
     @Override
     public void balance(int accountId) throws UnknownAccountException {
-        System.out.print("По счету "+accountId+ " остаток " );
+        System.out.print("По счету " + accountId + " остаток ");
     }
 
     @Override
@@ -33,7 +33,7 @@ public class ManagementAccount extends Account implements AccountService {
     public static void main(String[] args) throws UnknownAccountException, NotEnoughMoneyException {
         Scanner scanner = new Scanner(System.in);
         Account acc = new Account();
-        ManagementAccount managementAccount=new ManagementAccount();
+        ManagementAccount managementAccount = new ManagementAccount();
         System.out.println("Введите  команду balance [id], withdraw [id] [amount],deposit [id] [amount] или transfer [from] [to] [amount]");
         String order = scanner.nextLine();
         switch (order) {
@@ -48,17 +48,17 @@ public class ManagementAccount extends Account implements AccountService {
                 sum = scanner.nextInt();
                 managementAccount.withdraw(managementAccount.accountId, sum);
             }
-            case ("deposit"):{
-                acc.accountId =scanner.nextInt();
+            case ("deposit"): {
+                acc.accountId = scanner.nextInt();
                 sum = scanner.nextInt();
-                managementAccount.deposit(managementAccount.accountId,sum);
+                managementAccount.deposit(managementAccount.accountId, sum);
             }
-            case ("transfer"):{
-                acc.accountId =scanner.nextInt();
+            case ("transfer"): {
+                acc.accountId = scanner.nextInt();
                 int IdTo = scanner.nextInt();
-                sum= scanner.nextInt();
+                sum = scanner.nextInt();
                 managementAccount.withdraw(managementAccount.accountId, sum);
-                managementAccount.deposit(IdTo,sum);
+                managementAccount.deposit(IdTo, sum);
             }
         }
     }

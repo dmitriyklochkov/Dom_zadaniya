@@ -10,7 +10,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8524b165-4c13-421f-8200-da1d4a391f65" name="Default Changelist" comment="создал account" />
+    <list default="true" id="8524b165-4c13-421f-8200-da1d4a391f65" name="Default Changelist" comment="создал account">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Zadanie7/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/Zadanie7/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Zadanie7/ManagementAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/Zadanie7/ManagementAccount.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,6 +29,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1jVpbhb1Qg92FG73cMQBHbQS8DQ" />
@@ -38,7 +47,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/Zadanie7" />
     <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
   </component>
@@ -47,7 +56,20 @@
       <recent name="Zadanie7" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Unnamed">
+  <component name="RunManager" selected="Application.ManagementAccount (1)">
+    <configuration name="ManagementAccount (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Zadanie7.ManagementAccount" />
+      <module name="Dom_zadaniya" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Zadanie7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ManagementAccount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ManagementAccount" />
       <module name="Dom_zadaniya" />
@@ -71,9 +93,11 @@
     <list>
       <item itemvalue="Application.Unnamed" />
       <item itemvalue="Application.ManagementAccount" />
+      <item itemvalue="Application.ManagementAccount (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ManagementAccount (1)" />
         <item itemvalue="Application.ManagementAccount" />
       </list>
     </recent_temporary>
@@ -157,7 +181,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605717473871</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="4">
+      <created>1605717867450</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1605717867451</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -179,21 +210,23 @@
     <MESSAGE value="1" />
     <MESSAGE value="2" />
     <MESSAGE value="3" />
-    <option name="LAST_COMMIT_MESSAGE" value="3" />
+    <MESSAGE value="4" />
+    <option name="LAST_COMMIT_MESSAGE" value="4" />
   </component>
   <component name="WindowStateProjectService">
     <state x="309" y="42" key="#Inspections" timestamp="1605271398961">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="309" y="42" key="#Inspections/0.0.1366.728@0.0.1366.728" timestamp="1605271398961" />
-    <state x="440" y="94" key="#Project_Structure" timestamp="1604926681986">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="313" y="0" key="#Project_Structure" timestamp="1605722786951">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state x="313" y="0" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1605722786951" />
     <state x="440" y="94" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1604926681986" />
-    <state x="391" y="253" width="1092" height="787" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604926603704">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="91" y="13" width="1092" height="715" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605722595750">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="137" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1604842256343" />
+    <state x="91" y="13" width="1092" height="715" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1605722595750" />
     <state x="391" y="253" width="1092" height="787" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604926603704" />
     <state x="488" y="70" key="#com.intellij.ide.util.MemberChooser" timestamp="1605177575138">
       <screen x="0" y="0" width="1366" height="728" />
@@ -241,10 +274,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1366.728@0.0.1366.728" timestamp="1604841081310" />
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1605716854037">
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1605718041856">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1605716854037" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1605718041856" />
     <state x="387" y="137" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1605538067487" />
     <state x="288" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1604841522074">
       <screen x="0" y="0" width="1366" height="728" />

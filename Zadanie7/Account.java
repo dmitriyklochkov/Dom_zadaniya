@@ -4,6 +4,7 @@ import java.awt.*;
 import java.io.*;
 import java.util.ArrayList;
 import java.util.HashMap;
+
 public class Account {
     protected int accountId;
     protected String holder;
@@ -25,26 +26,23 @@ public class Account {
 
                 System.out.println(str + accountId + holder + amount);
             }
-            catch (FileNotFoundException e){
-                System.out.println(e.getMessage());
-            }
+            // catch (FileNotFoundException e){
+            //System.out.println(e.getMessage());
+            // }
         } catch (IOException e) {
             e.printStackTrace();
         }
     }
-        void record () throws FileNotFoundException {
-            try (PrintWriter pr = new PrintWriter(
-                    new FileWriter("D:\\Users\\dmitriy.klochkov\\Dom_zadaniya\\Zadanie7\\File.txt"))) {
 
-                String strr;
+    void record(HashMap hashMap) throws FileNotFoundException {
+        try (PrintWriter pr = new PrintWriter(
+                new FileWriter("D:\\Users\\dmitriy.klochkov\\Dom_zadaniya\\Zadanie7\\File.txt"))) {
 
-                while ((strr = pr.write(s)) != null) {
-                    System.out.println(strr);
-                }
-            } catch (FileNotFoundException e) {
-                System.out.println(e.getMessage());
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
+
+        } catch (FileNotFoundException e) {
+            System.out.println(e.getMessage());
+        } catch (IOException e) {
+            e.printStackTrace();
         }
     }
+}
